@@ -1,15 +1,15 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-Vue.use(VueRouter)
+import Router from 'vue-router'
+Vue.use(Router)
 
-import Dispatch from './views/Dispatch'
-import Calendar from './views/Calendar'
-import Producers from './views/Producers'
+import Dispatch from '@/views/Dispatch'
+import Calendar from '@/views/Calendar'
+import Producers from '@/views/Producers'
 
 const routes = [
-    { path: '/dispatch', component: Dispatch },
-    { path: '/calendrier', component: Calendar },
-    { path: '/producteurs', component: Producers }
+    { path: '/', name: 'Dispatch', component: Dispatch },
+    { path: '/calendrier', name: 'Calendrier', component: Calendar },
+    { path: '/producteurs', name: 'Producteurs', component: Producers }
 ]
 
-export default new VueRouter({ routes })
+export default new Router({ routes })

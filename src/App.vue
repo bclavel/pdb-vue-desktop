@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <Dispatch />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Dispatch from './views/Dispatch'
-
 export default {
-  name: 'App',
-  components: {
-    Dispatch
-  }
+  name: 'App'
 }
 </script>
 

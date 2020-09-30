@@ -4,13 +4,13 @@
         <p class="intro">Pourdebon vous aide à mieux consommer et à découvrir les producteurs proches de chez vous. Lorem ipsum sit dolor, marabum sed ficellum...</p>
         <div class="dispatch">
             <div class="push">
-                <router-link to="/calendrier">
+                <router-link to="calendrier">
                     <img class="icon" src="../assets/calendar.png" alt="calendar">
                     <h2>Produits de saison</h2>
                 </router-link>
             </div>
             <div class="push">
-                <router-link to="/producteurs">
+                <router-link to="producteurs">
                     <img class="icon" src="../assets/farmer.png" alt="farmer">
                     <h2>Producteurs à proximité</h2>
                 </router-link>
